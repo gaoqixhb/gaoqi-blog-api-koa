@@ -1,0 +1,24 @@
+{
+  "name": "gaoqi-blog-api-koa",
+  "version": "1.0.0",
+  "description": "api server for gaoqi-blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaoqixhb/gaoqi-blog-api-koa.git"
+  },
+  "keywords": [
+    "api",
+    "koa",
+    "gaoqi-blog"
+  ],
+  "author": "luoyjx <yjk99@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaoqixhb/gaoqi-blog-api-koa/issues"
+  },
+  "homepage": "https://github.com/gaoqixhb/gaoqi-blog-api-koa#readme"
+}
