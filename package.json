@@ -4,7 +4,8 @@
   "description": "api server for gaoqi-blog",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "dev": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/gaoqixhb/gaoqi-blog-api-koa/issues"
   },
-  "homepage": "https://github.com/gaoqixhb/gaoqi-blog-api-koa#readme"
+  "homepage": "https://github.com/gaoqixhb/gaoqi-blog-api-koa#readme",
+  "dependencies": {
+    "bluebird": "^3.4.3",
+    "koa": "^1.2.1",
+    "koa-mongo-rest": "^0.3.4",
+    "koa-router": "^5.4.0",
+    "lodash": "^4.15.0",
+    "mongoose": "^4.5.10"
+  }
 }
