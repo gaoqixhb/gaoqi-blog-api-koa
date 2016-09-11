@@ -2,9 +2,9 @@ var mongoose = require('mongoose');
 var config = require('../config');
 
 mongoose.Promise = require('bluebird');
-mongoose.connect(config.db, function (err) {
+mongoose.connect(config.mongodb_url, function (err) {
   if (err) {
-    console.error('connect to %s error: ', config.db, err.message);
+    console.error('connect to %s error: ', config.mongodb_url, err.message);
     process.exit(1);
   }
 });

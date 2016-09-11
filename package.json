@@ -25,7 +25,7 @@
   "dependencies": {
     "bluebird": "^3.4.3",
     "koa": "^1.2.1",
-    "koa-mongo-rest": "^0.3.4",
+    "koa-rest-mongoose": "^1.0.3",
     "koa-router": "^5.4.0",
     "lodash": "^4.15.0",
     "mongoose": "^4.5.10"

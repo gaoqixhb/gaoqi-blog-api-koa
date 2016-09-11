@@ -6,7 +6,7 @@
 
 var app = require('koa')();
 var router = require('koa-router')();
-var generateApi = require('koa-mongo-rest');
+var generateApi = require('koa-rest-mongoose');
 
 var models = require('./models');
 
@@ -15,7 +15,7 @@ app.use(router.routes());
 
 //add REST routes to your app. Prefix is optional
 Object.keys(models).forEach(function(modelName) {
-  generateApi(app, models[modelName], '/api');
+  generateApi(app, router, models[modelName], '/api');
 });
 
 app.listen(process.env.PORT || 5000);
