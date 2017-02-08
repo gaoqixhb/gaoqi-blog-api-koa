@@ -5,5 +5,5 @@
  */
 
 module.exports = {
-  mongodb_url: 'mongodb://gaoqi_blog:Gaoqi_blog_2014@127.0.0.1/gaoqi_blog'
+  mongodb_url: 'mongodb://127.0.0.1/gaoqi_blog'
 };
