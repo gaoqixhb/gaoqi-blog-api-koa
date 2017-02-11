@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "dev": "DEBUG=gaoqi-blog-api-koa:* node app.js"
+    "dev": "DEBUG=gaoqi-blog-api-koa:* node app.js",
+    "start": "NODE_ENV=production pm2 start app.js --name gaoqi-blog-api"
   },
   "repository": {
     "type": "git",
