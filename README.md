@@ -1,4 +1,6 @@
 # gaoqi-blog-api-koa
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/gaoqixhb/gaoqi-blog-api-koa.svg)](https://greenkeeper.io/)
 api for gaoqi-blog based on koa 1.x
 
 # API使用说明
